@@ -1,0 +1,226 @@
+* { margin: 0; padding: 0; box-sizing: border-box; outline: none; }
+
+body{font-family: "微软雅黑";background: #f4f6f9;}
+/*head*/
+
+#head{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    margin: 0;
+    background-color:#e9e9e9
+}
+.nav{
+    width: 1250px;
+    height: 70px;
+    padding: 0 0 0 100px;
+    background: url(../images/logo.png) left center no-repeat;
+    background-size: 70px auto;
+    margin: 0 auto;
+}
+.nav span{
+    display: inline-block;
+    color: #4b3e35;
+    font-size: 18px;
+    padding: 0 40px;
+    line-height: 70px;
+}
+a{
+    text-decoration: none;
+    color: #4b3e35;;
+    font-size: 18px;
+}
+.nav .search{
+    display: inline-block;
+    float: right;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    font-size: 15px;
+    background: #eaedef url(../images/search.png) no-repeat 10px center;
+    background-size: 20px auto;
+    text-align: center;
+    padding: 0;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+#main{
+    width: 1250px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 12px;
+}
+#menu{
+    width: 250px;
+    min-height: 4290px;
+    float: left;
+    background-color: #2d3436;
+    color: #fff;
+    padding: 30px 20px;
+
+}
+#menu h3{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+#menu li{
+    font-size: 17px;
+    list-style: none;
+    padding: 10px 0;
+    border-bottom: 1px dashed #444;
+}
+#menu a{
+    text-decoration: none;
+    color: #e2dfdc;;
+    font-size: 18px;
+}
+#content{
+    width: 1000px;
+    height: auto;
+    text-align: center;
+    font-size: 16px;
+    float: left;
+    text-align: left;
+    padding: 40px;
+}
+.AI img{
+    width: 900px;
+    max-width: 100%;
+    height: 350px;
+    border-radius: 15px;
+}
+.AI p{
+    font-size: 20px;
+    color: #636e72;
+    line-height: 1.6;
+    text-align: justify;
+}
+#content h1{
+    color: #3d484b;
+    margin-bottom: 15px;
+    font-size: 28px;
+    margin-top: 30px;
+}
+#content h2{
+    color: #3d484b;
+    margin-bottom: 15px;
+    font-size: 24px;
+    margin-top: 30px;
+}
+#content h3{
+    color: #2d3436;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+#content p{
+    font-size: 20px;
+    color: #636e72;
+    line-height: 1.6;
+    text-align: justify;
+}
+.roadmap{
+    width: 100%;
+    height: 670px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.one {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.roadmap .roadmap_pic .pic{display: none;}
+.roadmap .roadmap_pic .current{display: block;}
+.roadmap ol{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    margin-left: -62px;
+    list-style: none;
+}
+.roadmap ol .but{
+    float: left;
+    width: 28px;
+    height: 1px;
+    border: 1px solid #d6d6d6;
+    margin-right: 20px;
+}
+.roadmap ol li{
+    cursor: pointer;
+    width: 30px;
+    height: 6px;
+}
+.roadmap ol .current{
+    background: #6c5ce7;
+    float: left;
+    width: 28px;
+    height: 2px;
+    border: 2px solid #6c5ce7;
+    margin-right: 20px;
+}
+.ML .AI .DL .RL{
+    text-align: center;
+    margin: 20px 0;
+}
+.ML img{
+    width: 900px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.ML_types{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 20px;
+}
+.ML_types li{
+    list-style: none;
+    width: 32%;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ML_types li img{
+    width: 290px;
+    height: 320px;
+    margin-bottom: 15px;
+    display: block;
+}
+.DL img{
+    width: 900px;
+    max-width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.RL img{
+    width: 900px;
+    max-width: 100%;
+    height: 300px;
+    border-radius: 15px;
+}
+.roadmap img{
+    height: 600px;
+    width: 900px;
+}
+#footer{
+    background-color:rgb(156, 163, 174);
+    clear:both;
+    text-align:center;
+    width: 100%;
+    padding: 20px 0;
+}
